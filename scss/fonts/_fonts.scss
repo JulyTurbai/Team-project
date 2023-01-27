@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Poppins';
+	src: url('../font/Poppins-Medium.eot');
+	src: local('../font/Poppins Medium'), local('Poppins-Medium'),
+		url('../font/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../font/Poppins-Medium.woff2') format('woff2'),
+		url('../font/Poppins-Medium.woff') format('woff'),
+		url('../font/Poppins-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../font/Poppins-Regular.eot');
+	src: local('../font/Poppins Regular'), local('Poppins-Regular'),
+		url('../font/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../font/Poppins-Regular.woff2') format('woff2'),
+		url('../font/Poppins-Regular.woff') format('woff'),
+		url('../font/Poppins-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../font/Poppins-SemiBold.eot');
+	src: local('../font/Poppins SemiBold'), local('Poppins-SemiBold'),
+		url('../font/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../font/Poppins-SemiBold.woff2') format('woff2'),
+		url('../font/Poppins-SemiBold.woff') format('woff'),
+		url('../font/Poppins-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../font/Poppins-Light.eot');
+	src: local('../font/Poppins Light'), local('Poppins-Light'),
+		url('../font/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+		url('../font/Poppins-Light.woff2') format('woff2'),
+		url('../font/Poppins-Light.woff') format('woff'),
+		url('../font/Poppins-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../font/Poppins-Bold.eot');
+	src: local('../font/Poppins Bold'), local('Poppins-Bold'),
+		url('../font/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/Poppins-Bold.woff2') format('woff2'),
+		url('../font/Poppins-Bold.woff') format('woff'),
+		url('../font/Poppins-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

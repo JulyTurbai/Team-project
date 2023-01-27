@@ -1,0 +1,65 @@
+@import  "./var";
+@import "./mixin";
+@import "./fonts/fonts";
+@import "./header/header";
+@import "./header/header-media";
+@import "./hero/_hero";
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+	
+}
+body {
+	line-height: 1;
+	height: 100%;
+	background: #ffffff;
+	font-family: 'Poppins';
+}
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.search-window {
+	@include flex(flex-start, center, center);
+	min-width: 520px;
+	height: 38px;
+	background: white;
+	border-radius: 50px;
+	padding-left: 15px;
+	&__img {
+		margin-right: 10px;
+	   }
+	&__text {
+		font-size: 11px;
+		color: #ACACAC;
+	}
+	&__input {
+		min-width: 400px;
+		border: none;
+		background: none;
+	}
+	&__input:focus {
+		outline: none;
+	}
+
+}

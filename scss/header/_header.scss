@@ -1,0 +1,173 @@
+.header {
+    .header-top {
+        width: 100%;
+        background: black;
+            .block {
+                @include flex(space-between, center, center);
+                color: white;
+                font-size: 12px;
+                font-weight: 600;
+                padding: 5px 0;
+                min-height: 45px;
+                cursor: pointer;
+                .desctop-logo {
+                    height: 50px;
+                    width: 65px;
+                    background: #0156FF;
+                    @include flex;
+                    border-radius: 40px 40px 0px 0 ;
+                    display: none;
+                }
+                .calendar {
+                @include flex();
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 190px;
+                box-sizing: content-box;
+                line-height: calc(18 / 12 * 100%);
+                &__month {
+                    margin-right: 7px;
+                    
+                }
+                &__pm {
+                    margin-right: 10px;
+                    }
+                }
+            .adress {
+                @include flex();
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 450px;
+                line-height: calc(18 / 12 * 100%);
+                
+                &__street {
+                    color: #ACACAC;
+                }
+                &__contact-us {
+                    margin-left: 3px;
+                    height: 17px;
+                    }
+                &__contact-us:hover {
+                    border-bottom: 2px solid white;
+                    padding-bottom: 7px;
+                }
+                
+            }
+            .contact {
+                @include flex();
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 200px;
+                &__call {
+                    margin-right: 17px;
+                }
+                &__link-facebook {
+                    margin-right: 17px;
+                    }
+                }
+        
+            }
+        }
+    }
+    .header-bottom  {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        .block {
+            @include flex(space-between, center, center);
+            min-height: 92px;
+            padding-top: 5px;
+            .choice-block {
+                @include flex();
+                .logo img {
+                    margin-right: 60px;
+                    width: 34px;
+                    height: 40px;
+                }
+                .menu {
+                    &__items {
+                        @include flex();
+                        flex-wrap: wrap;
+                        max-width: 1200px;
+                    }
+                    &__item {
+                        line-height: 21px;
+                        margin-right: 25px;
+                    }
+                    &__item:last-child {
+                        margin-right: 0px;
+                    }
+                    &__link {
+                        line-height: calc(21 / 14 * 100%);
+                        padding: 5px;
+                        display: inline-block;
+                        border-radius: 50px;
+                        border: 2px solid white;
+                    }
+
+                    &__link:hover {
+                        border: 2px solid #0156FF;
+                            }
+                        }
+                    }
+                .actions {
+                    @include flex();
+                    &__search img {
+                        margin-right: 30px;
+                        width: 16px;
+                        height: 16px;
+                    }
+                    &__card img {
+                        margin-right: 30px;
+                        width: 19px;
+                        height: 17px;
+                    }
+                    &__account img {
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+            }
+        }
+        
+    .tablet-menu {
+        width: 100%;
+        background: #0156FF;
+        display: none;
+        &__logo {
+            display: none;
+        }
+        .block{
+            @include flex(space-between, center, center);
+            min-height: 64px;
+            width: 100%;
+        }
+    }
+    
+    .mobile-menu {
+        width: 100%;
+        background: #0156FF;
+        display: none;
+        
+        &__button {
+            @include flex();
+            width: 120px;
+            height: 35px;
+            border: 2px solid white;
+            border-radius: 50px;
+            background: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            
+        }
+        .block {
+            min-height: 110px;
+            @include flex();
+            flex-wrap: wrap;
+            width: 100%;
+            .top {
+                @include flex(space-between, center, center);
+            }
+        }
+    }
